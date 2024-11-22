@@ -1,3 +1,8 @@
+export M2_HOME=/opt/maven
+export M2=/opt/maven/bin
+export PATH=$PATH:$M2
+
+
 mvn archetype:generate -DgroupId=com.example -DartifactId=sample-webapp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 
 mvn package
